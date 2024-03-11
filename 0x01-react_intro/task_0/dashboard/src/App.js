@@ -1,4 +1,4 @@
-import React from 'react';
+mport React from 'react';
 import logo from './dashboard/HolbertonLogo.png';
 import './App.css';
 

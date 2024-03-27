@@ -1,8 +1,7 @@
-const { fromJS, Map } = require('immutable');
+const { Map } = require('immutable');
 
 function getImmutableObject(object) {
-  return fromJS(object);
+  return Map(object);
 }
 
 module.exports = getImmutableObject;
-
